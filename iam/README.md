@@ -10,8 +10,8 @@ AWS Identity and Access Management (IAM) enables you to create additional users 
 3. Click the *Users* link
 You should see a list of existing users.
 4. Locate your user name in the list, and click your name(not the checkbox) to select it. Using the information in the console, answer the following questions:
-- What group(s) is your user a member of?
-- Are there any Group Permissions attached to your user? If so, what are they?
+  - What group(s) is your user a member of?
+  - Are there any Group Permissions attached to your user? If so, what are they?
 5. Click the *Users* link, then click the *Add User* button.
 7. In the User name text field, enter a user name of [UserName]-restrict (where [UserName] is your current AWS user name).
 8. Check the AWS Management Console access checkbox.
@@ -27,10 +27,10 @@ You should see a list of existing users.
 18. Sign in with the new user name you just created.
 19. On the EC2 dashboard, view all running instances. You will see some running instances.
 20. Verify if you can or cannot perform the following actions:
-  1. Terminate an instance
-  2. View monitoring details
-  3. Connect (SSH/RDP) to the instance
-  4. Launch a new instance
+  - Terminate an instance
+  - View monitoring details
+  - Connect (SSH/RDP) to the instance
+  - Launch a new instance
 21. Try to access other AWS recourses (S3, CloudFront, IAM, etc.). Are you able to access any other resources?
 22. When you're done, log out and log back in with your original user name.
 ## Congratulations! You have created a new IAM user and restricted access to only view EC2 resources.
