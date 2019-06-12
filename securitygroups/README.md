@@ -1,4 +1,5 @@
 # Building Custom Security Groups (Named Firewall Rules)
+## Create a Security Group that allow RDP access from one IP and HTTP access from anywhere in the world
 1. Log in to the AWS Management Console
 2. Navigate to Services | EC2 
 3. Click the Security Group link in the left side nav
@@ -23,3 +24,9 @@
 - You have just created a security group that allows access to
 HTTP (Port 80) from anywhere on the Internet and 
 RDP (Port 3389) only from your public IP
+
+## Repeat for SSH
+18. Repeat steps 4 through 17, but:
+   - Name your new new securtiy group [username]-ssh-http
+   - instead of an inbound RDP rule, add an inbound SSH rule from "My IP"
+   
