@@ -9,7 +9,7 @@
    - VPC name: [username]-vpc
    - Public subnet: 10.X.100.0/24
    - Availability Zone: your choice (but remember what you chose)
-   - Subnet name: <username>-publicsubnet-1
+   - Subnet name: [username]-publicsubnet-1
    - Enable DNS hostnames: Yes
    - Hardware tenancy: Default
 5. Click Create VPC
@@ -18,7 +18,7 @@
 8. Click the Subnets link and record your Public Subnet ID and the Availability Zone of your subnet
 ## Add a second public subnet in a different Availability Zone
 1. Click Create Subnet and use the following values:
-   - Name: <username>-PubSubnet-2
+   - Name: [username]-publicsubnet-2
    - VPC: The VPC you just created
    - Availability Zone: A different zone than you selected for first subnet
    - CIDR block: 10.X.101.0/24
