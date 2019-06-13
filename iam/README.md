@@ -20,17 +20,18 @@ You should see a list of existing users.
 11. Click Attach Existing policies directly
 12. Search for ec2R
 13. Check the AMazonEC2ReadOnlyAccess checkbox
-14. Click Next:Review
-15. Click the Create user button, then click Close.
-16. Feel free to investigate MFA (Multi-Factor Authentication). To enable it, you will need an MFA device. The Google Authenticator app for smartphones works and can be downloaded for free. To enable it, click the new user just created in the user list, select the Security credentials tab, and click the edit button next to Assigned MFA Device.
-17. Log out of the AWS Management Console, and click the link to sign in to the AWS Management Console.
-18. Sign in with the new user name you just created.
-19. On the EC2 dashboard, view all running instances. You will see some running instances.
-20. Verify if you can or cannot perform the following actions:
+14. Click Next: Tags
+15. Click Next: Review
+16. Click the Create user button, then click Close.
+17. Feel free to investigate MFA (Multi-Factor Authentication). To enable it, you will need an MFA device. The Google Authenticator app for smartphones works and can be downloaded for free. To enable it, click the new user just created in the user list, select the Security credentials tab, and click the edit button next to Assigned MFA Device.
+18. Log out of the AWS Management Console, and click the link to sign in to the AWS Management Console.
+19. Sign in with the new user name you just created.
+20. On the EC2 dashboard, view all running instances. You will see some running instances.
+21. Verify if you can or cannot perform the following actions:
   - Terminate an instance
   - View monitoring details
   - Connect (SSH/RDP) to the instance
   - Launch a new instance
-21. Try to access other AWS recourses (S3, CloudFront, IAM, etc.). Are you able to access any other resources?
-22. When you're done, log out and log back in with your original user name.
+22. Try to access other AWS recourses (S3, CloudFront, IAM, etc.). Are you able to access any other resources?
+23. When you're done, log out and log back in with your original user name.
 ## Congratulations! You have created a new IAM user and restricted access to only view EC2 resources.
