@@ -9,7 +9,7 @@
 8. In Chrome, the file will automatically be saved
 9. The [username]KeyPair.pem file was saved in the Downloads folder. This contains your generated key pair. Amazon has stored your public key in the region used
 
-## Prepare key for Putty wuth POuttyGen
+## Prepare key for Putty wuth PuttyGen
 1. Start PuTTYgen by double-clicking the icon on your desktop and perform the following steps
 2. Click the Load button
 3. Set the file type drop-down to All Files (\*.\*)
